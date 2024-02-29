@@ -1,0 +1,50 @@
+cd desktop
+cd ..
+cd atividade01
+cd nota01.txt
+dir
+cls
+cd ..
+mkdir backup
+cd backup
+copy nota01.txt
+copy nota01.txt >> backup
+move nota01.txt >> backup
+move nota01.txt backup
+move nota01 > backup
+copy <nota01.txt> <backup>
+copy <nota01.txt> backup
+cls
+.cd ..
+cd ..
+cls
+cd atividade01
+ren atividade01 trabalhos
+cd ..
+ren atividade01 trabalhos
+mkdir documento
+cd documento
+mkdir projetos 
+mkdir pessoais
+cd ..
+move backup documentos
+move trabalhos documento
+move backup documento
+cd documento
+mkdir backup
+cd ..
+ren pessoais lazer
+cd documento
+ren pessoais lazer
+cd lazer
+echo legal viagem.txt
+echo legal >> viagem.txt
+echo Fran‡a >> viagem.txt
+echo Inglaterra >> viagem.txt
+echo canada >> viagem.txt
+echo Argentina >> viagem.txt
+echo Japao >> viagem.txt
+cd ..
+tree /f
+doskey/h
+doskey/history >> julia.txt
