@@ -39,7 +39,7 @@ ren pessoais lazer
 cd lazer
 echo legal viagem.txt
 echo legal >> viagem.txt
-echo Fran‡a >> viagem.txt
+echo Franâ€¡a >> viagem.txt
 echo Inglaterra >> viagem.txt
 echo canada >> viagem.txt
 echo Argentina >> viagem.txt
